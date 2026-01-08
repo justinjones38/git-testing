@@ -4,8 +4,7 @@
     padding: 0;
 }
 
-button {
-    background-color: red;
+#button {
     color: white;
     border-radius: 8px;
     margin-top: 0.9rem;
@@ -13,7 +12,15 @@ button {
     width: 20%;
 }
 
-button:hover {
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+#button:hover {
     text-decoration: underline;
     cursor: pointer;
     box-shadow: 0 0 10px white;
