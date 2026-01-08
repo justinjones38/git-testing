@@ -2,12 +2,10 @@
 
 const changeButtonStyle = () => {
     button.classList.toggle("blue");
-    if(button.style.backgroundColor === "red") {
-        console.log("Clicked")
+    if(button.classList.contains("blue")) {
         button.textContent = "Clicked"
 
     } else {
-        console.log("Not Clicked")
         button.textContent = "Click me";
     }
 }
