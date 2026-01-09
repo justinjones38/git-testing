@@ -72,6 +72,18 @@
     cursor: pointer;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+    align-items: center;
+    height: 50px;
+}
+
+.footer h5 {
+    font-size: 1.1rem;
+}
+
 @media (max-width: 500px) {
     .main-container {
         grid-template-columns: repeat(2, 1fr);
