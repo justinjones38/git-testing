@@ -18,7 +18,7 @@ button.addEventListener("click", changeButtonStyle);
 
 
 const changeSectionColor = (event) => {
-    console.log("I would really like to click this document. It would help me solve merge conflict");
+    console.log(`I want to click this button. I think it is important. It would help us solve a merge conflict`);
     event.target.classList.toggle("blue");
 }
 
