@@ -18,7 +18,7 @@ button.addEventListener("click", changeButtonStyle);
 
 
 const changeSectionColor = (event) => {
-    console.log("I would really like to click this. It seems interesting");
+    console.log("I would really like to click this. It is helpful");
     event.target.classList.toggle("blue");
 }
 
